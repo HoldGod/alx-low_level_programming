@@ -17,7 +17,7 @@ _putchar('\n');
 r = print_sign(0);
 _putchar(',');
 _putchar(' ');
-char(r + '0');
+_putchar(r + '0');
 _putchar('\n');
 r = print_sign(0xff);
 _putchar(',');

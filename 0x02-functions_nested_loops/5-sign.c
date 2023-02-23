@@ -1,32 +1,30 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_sign - function that prints signs
+ * print_sign - function that prints sign of a number
  *
  * @n: function parameter
  *
- * Return: 0, 1 and -1
+ * Return: 1 if number is greater than zero
+ * 0 if number is zero
+ * -1 if number is less than zero
  */
 
 int print_sign(int n)
 {
 	if (n > 0)
-
 	{
-		printf("+, ");
+		_putchar('+');
 		return (1);
 	}
-
 	else if (n == 0)
 	{
-		printf("0, ");
+		_putchar('0');
 		return (0);
 	}
-
 	else
 	{
-		printf("-, ");
+		_putchar('-');
 		return (-1);
 	}
 }
-
